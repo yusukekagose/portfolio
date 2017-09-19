@@ -3,3 +3,7 @@ LOG:  MultiXact member wraparound protections are now enabled
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
 FATAL:  database "portfolioApp_development" does not exist
+ERROR:  database "portfolioApp_development" already exists
+STATEMENT:  CREATE DATABASE "portfolioApp_development" ENCODING = 'unicode'
+ERROR:  database "portfolioApp_test" already exists
+STATEMENT:  CREATE DATABASE "portfolioApp_test" ENCODING = 'unicode'
