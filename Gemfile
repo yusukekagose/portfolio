@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
@@ -57,3 +58,8 @@ gem 'devise', '~> 4.2'
 
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'petergate', '~> 1.7'
+gem 'devcamp_view_tool', '~> 0.1.0'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
+gem 'kaminari', '~> 1.0', '>= 1.0.1'
+gem 'bootstrap_form'
+gem 'bootstrap4-kaminari-views'
