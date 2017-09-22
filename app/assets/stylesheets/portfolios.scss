@@ -1,10 +1,5 @@
 @import "bootstrap";
 
-
-.container{
-  margin: 0 auto;
-  widht:80%;
-}
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
 }
@@ -64,6 +59,8 @@ footer p {
   margin-bottom: .25rem;
 }
 
-.background-black{
-  background: black;
+/* Custom styles */
+
+.portfolio-form {
+  padding: 20px;
 }

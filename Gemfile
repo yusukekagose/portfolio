@@ -55,10 +55,10 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.2'
-gem 'bootstrap_form'
-gem 'bootstrap4-kaminari-views'
+
 gem 'bootstrap', '~> 4.0.0.alpha6'
-gem 'petergate', '~> 1.7'
+
 gem 'devcamp_view_tool', '~> 0.1.0'
+gem 'petergate', '~> 1.7'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
 gem 'kaminari', '~> 1.0', '>= 1.0.1'

@@ -1,4 +1,4 @@
-<div class="collapse bg-inverse background-black" id="navbarHeader">
+<div class="collapse bg-inverse" id="navbarHeader" style="background: black;">
   <div class="container">
     <div class="row">
       <div class="col-sm-8 py-4">
@@ -9,7 +9,7 @@
         <h4 class="text-white">Explore</h4>
         <ul class="list-unstyled">
           <li><%= link_to "Home", root_path, class: 'text-white' %></li>
-          <li><%= link_to "About Me", about_path, class: 'text-white' %></li>
+          <li><%= link_to "About Me", about_me_path, class: 'text-white' %></li>
           <li><%= link_to "Contact", contact_path, class: 'text-white' %></li>
           <li><%= link_to "Blog", blogs_path, class: 'text-white' %></li>
           <li><%= link_to "Portfolio", portfolios_path, class: 'text-white' %></li>
@@ -20,10 +20,9 @@
   </div>
 </div>
 
-<div class="navbar navbar-inverse bg-inverse background-black">
+<div class="navbar navbar-inverse bg-inverse" style="background: black;">
   <div class="container d-flex justify-content-between">
-
-    <%= link_to "Yusuke", root_path, class: "navbar-brand text-white" %>
+    <%= link_to "Yusuke",root_path, class: "navbar-brand text-white" %>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
