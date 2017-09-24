@@ -3,7 +3,7 @@ class CommentsController < ApplicationController
 		@comment = current_user.comments.build(comment_params)
 	end
 
-	def commnet_params
+	def comment_params
 		params.require(:comment).permit(:content)
 	end
 end
