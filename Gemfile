@@ -68,3 +68,4 @@ gem 'redis', '~> 4.0'
 gem 'redcarpet', '~> 3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.1'
 ruby '2.3.1'
+gem 'rails_12factor', group: :production
